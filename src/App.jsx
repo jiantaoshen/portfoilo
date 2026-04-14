@@ -1,5 +1,7 @@
 import './App.css';
 import Circles from './circlesDisplay';
+import GitHubIcon from './images/GitHub_Invertocat_Black.png';
+import LinkedInIcon from './images/LI-In-Bug.png';
 
 function App() {
   const name = "JIANTAO SHEN";
@@ -13,6 +15,15 @@ function App() {
         <div className="flex-container">
            {/*  Left Box */}
             <div className="left">
+                <h3 className="title">Kontakt</h3>
+                <a href="https://github.com/jiantaoshen" target="_blank" rel="noopener noreferrer">
+                    <img src={GitHubIcon} alt="GitHub" className="icons"/>
+                </a>
+
+                <a href= "https://www.linkedin.com/in/jiantaoshen/" target="_blank" rel="noopener noreferrer">
+                    <img src={LinkedInIcon} alt="LinkedIn" className="icons"/>
+                </a>
+
                 <h3 className="title">Språk</h3>
                 <div className="skill">
                     <span>Kinesiska (Modersmål)</span>
