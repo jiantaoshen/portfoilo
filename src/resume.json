@@ -1,0 +1,49 @@
+{
+  "name": "JIANTAO SHEN",
+
+  "contact": {
+    "github": "https://github.com/jiantaoshen",
+    "linkedin": "https://www.linkedin.com/in/jiantaoshen/"
+  },
+
+  "languages": [
+    { "label": "Kinesiska (Modersmål)", "level": 5 },
+    { "label": "Engelska (B2 - C1)", "level": 4 },
+    { "label": "Svenska (B2 - C1)", "level": 4 }
+  ],
+
+  "skills": [
+    { "label": "Python & Machine Learning", "level": 3 },
+    { "label": "C# & .NET", "level": 2 },
+    { "label": "CSS + HTML + Javascript", "level": 1 },
+    { "label": "SQL", "level": 1 }
+  ],
+
+  "about": "Jag är civilingenjör inom robotik med erfarenhet av maskininlärning, AI och programmering. Jag har ett starkt intresse för att utveckla intelligenta system och effektiv backend-mjukvara, och har nu övergått till att fokusera på backend-utveckling och systemarkitektur.",
+
+  "projects": [
+    {
+      "title": "Maskininlärning för handgestigenkänning (Examensarbete, 2024)",
+      "points": [
+        "Utvecklade ett system för handgestigenkänning baserat på FMCW-radar och Convolutional Neural Networks (CNN) i ett tvåpersonersteam",
+        "Bearbetade radarsignaler för att extrahera rörelsedata och objektinformation i Python",
+        "Implementerade och tränade en CNN-modell i TensorFlow för klassificering av handgester"
+      ]
+    }
+  ],
+
+  "education": [
+    {
+      "title": "Programmerare AI (yrkesutbildning), Lexicon AB (2026 MAR - Nu)",
+      "points": ["Inriktning på utveckling av webbapplikationer och molntjänster."]
+    },
+    {
+      "title": "Arbetsmarknadsaktiviteter + Språkkurser (2024 JUL - 2026 MAR)",
+      "points": ["Fördjupar svenska och engelska för att stärka kommunikationsförmåga."]
+    },
+    {
+      "title": "Civilingenjör inom robotik, Mälardalen universitet (2019 SEP - 2024 JUL)",
+      "points": ["Inriktning på robotik, inbyggda system, maskininlärning och artificiell intelligens."]
+    }
+  ]
+}
