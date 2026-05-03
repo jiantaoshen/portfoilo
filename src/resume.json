@@ -8,8 +8,8 @@
 
   "languages": [
     { "label": "Kinesiska (Modersmål)", "level": 5 },
-    { "label": "Engelska (B2 - C1)", "level": 4 },
-    { "label": "Svenska (B2 - C1)", "level": 4 }
+    { "label": "Engelska (B2)", "level": 4 },
+    { "label": "Svenska (B2)", "level": 4 }
   ],
 
   "skills": [
@@ -19,7 +19,7 @@
     { "label": "SQL", "level": 1 }
   ],
 
-  "about": "Jag är civilingenjör inom robotik med erfarenhet av maskininlärning, AI och programmering. Jag har ett starkt intresse för att utveckla intelligenta system och effektiv backend-mjukvara, och har nu övergått till att fokusera på backend-utveckling och systemarkitektur.",
+  "about": "Civilingenjör inom robotik med erfarenhet av maskininlärning och systemutveckling. Nu studerar jag C#/.NET med fokus på backendutveckling och molntjänster och söker jobb inom backendutveckling.",
 
   "projects": [
     {
