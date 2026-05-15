@@ -1,0 +1,111 @@
+.portfolio-container {
+  position: relative;
+  isolation: isolate;
+}
+
+/* BACKGROUND SVG */
+.hero-bg {
+  position: absolute;
+  inset: 0;
+
+  background-image: url("../assets/Hero.svg");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: contain;
+
+  opacity: 0.75;
+
+  z-index: -1;
+
+  pointer-events: none;
+}
+
+/* HERO SECTION */
+.hero-section {
+  display: flex;
+  align-items: center;
+
+  padding-top: var(--space-6);
+  padding-bottom: var(--space-6);
+}
+
+/* CONTENT */
+.hero-content {
+  max-width: 650px;
+}
+
+/* INTRO */
+.intro-text {
+  color: var(--color-primary);
+  font-size: var(--font-h3);
+  margin-bottom: var(--space-4);
+}
+
+/* TITLE */
+.hero-title {
+  font-size: var(--font-h1);
+  font-weight: var(--font-weight-bold);
+
+  margin-bottom: var(--space-4);
+}
+
+/* ROLE */
+.role-container {
+  display: flex;
+  align-items: center;
+
+  gap: var(--space-4);
+}
+
+/*
+.hero-role {
+  font-size: var(--font-h2);
+  font-weight: var(--font-weight-medium);
+}
+*/
+
+/* SUMMARY */
+.hero-summary {
+  margin-top: var(--space-4);
+
+  color: var(--color-text-soft);
+
+  line-height: 1.8;
+
+  max-width: 600px;
+}
+
+/* BUTTON */
+.primary-button {
+  margin-top: var(--space-4);
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .hero-section {
+    justify-content: center;
+    text-align: center;
+
+    min-height: auto;
+
+    padding-top: var(--space-5);
+    padding-bottom: var(--space-5);
+  }
+
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .role-container {
+    justify-content: center;
+  }
+
+  .hero-bg {
+    background-position: center;
+    background-size: cover;
+
+    opacity: 0.05;
+  }
+}

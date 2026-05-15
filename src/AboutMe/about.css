@@ -1,0 +1,30 @@
+/* SUB HEADINGS */
+.subtitle {
+  font-size: 1.3rem;
+  color: var(--color-primary);
+}
+
+/* LISTS */
+.list {
+  margin-top: 0.5rem;
+  padding-left: 2rem;
+}
+
+.list li {
+  margin-bottom: 0.3rem;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .about-page {
+    padding: 2rem 1.5rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .line {
+    height: 35px;
+  }
+}

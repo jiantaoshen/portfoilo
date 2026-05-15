@@ -1,5 +1,3 @@
-# Personal CV Website (React)
-
 ## Description
 This is my personal portfolio website built with React. It showcases my projects, skills, and background through a clean and responsive user interface.
 
@@ -16,13 +14,13 @@ This is my personal portfolio website built with React. It showcases my projects
 ## Architecture
 The project structure separates pages into different folders to improve maintainability and scalability.
 
-| Page Route | Folder |
-|---|---|
-| `/about` | `AboutMe` |
-| `/projects` | `ProjectRoutePage` |
-| `/` | `LandingPage` |
-| `/projects/:id` | `ContentPage` |
-| Layout, Header, Footer | `components` |
+Page Route → Folder
+
+- `/about` → `AboutMe`
+- `/projects` → `ProjectRoutePage`
+- `/` → `LandingPage`
+- `/projects/:id` → `ContentPage`
+- Layout, Header, Footer → `components`
 
 This structure makes the project easier to maintain and navigate. When updates are needed, it is easier to identify where changes should be made.
 

@@ -1,0 +1,100 @@
+.projects-page {
+  margin-bottom: 3rem;
+}
+
+/* GRID */
+.projects-grid {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+
+  gap: 2rem;
+}
+
+/* CARD */
+.project-card {
+  background: rgb(199, 229, 240);
+
+  border-radius: 12px;
+
+  overflow: hidden;
+
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* IMAGE */
+.project-image img {
+  width: 100%;
+  height: 180px;
+
+  object-fit: cover;
+
+  display: block;
+}
+
+/* CONTENT */
+.project-content {
+  padding: 1rem;
+}
+
+/* TITLE ROW */
+.title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 1rem;
+}
+
+.project-title {
+  font-size: var(--font-h3);
+  margin: 0;
+}
+
+/* DESCRIPTION */
+.project-description {
+  margin-top: 0.5rem;
+
+  color: var(--color-text-soft);
+  font-size: var(--font-small);
+  line-height: 1.5;
+}
+
+/* TAGS */
+.tag-group {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: var(--space-1);
+
+  margin-top: 1rem;
+}
+
+/* STATUS BADGE */
+.status-badge {
+  padding: 0.3rem 0.6rem;
+
+  border-radius: 999px;
+
+  font-size: 0.75rem;
+  font-weight: 600;
+
+  color: white;
+
+  white-space: nowrap;
+}
+
+.status-badge.open {
+  background: #22c55e;
+}
+
+.status-badge.ongoing {
+  background: #f59e0b;
+}
