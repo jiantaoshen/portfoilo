@@ -1,6 +1,9 @@
 import "./home.css";
+import { useNavigate } from "react-router-dom";
 
 export default function Home() {
+  const navigate = useNavigate();
+  
   return (
     <div className="portfolio-container">
 
@@ -24,7 +27,9 @@ export default function Home() {
           </p>
 
           <div className="button-group">
-            <button className="primary-button">View My Work</button>
+            <button className="primary-button" onClick={() => navigate("/projects")}>
+              View My Work
+            </button>
           </div>
 
         </div>
