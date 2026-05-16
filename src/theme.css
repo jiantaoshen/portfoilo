@@ -54,6 +54,7 @@
 
   /* TRANSITIONS */
   --transition-normal: 0.3s ease;
+  --bar-transition: width 0.6s ease;
 
   /* CONTENT WIDTH */
   --container-width: 1200px;
