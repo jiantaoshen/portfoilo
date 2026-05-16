@@ -57,27 +57,50 @@
   gap: var(--space-4);
 }
 
-/*
-.hero-role {
-  font-size: var(--font-h2);
-  font-weight: var(--font-weight-medium);
-}
-*/
-
 /* SUMMARY */
 .hero-summary {
   margin-top: var(--space-4);
 
-  color: var(--color-text-soft);
+  color: var(--color-text);
 
   line-height: 1.8;
 
   max-width: 600px;
 }
 
-/* BUTTON */
+/* BLUE LINE */
+.blue-line {
+  width: 4px;
+  height: var(--font-h2);
+
+  background: var(--color-primary);
+  border-radius: var(--radius-full);
+}
+
+/* =========================
+   BUTTONS
+========================= */
+button {
+  font: inherit;
+}
+
 .primary-button {
+  background: var(--color-primary);
+  color: var(--color-bg);
+
+  border: none;
   margin-top: var(--space-4);
+  border-radius: var(--radius-lg);
+
+  padding: 0.9rem 1.8rem;
+
+  cursor: pointer;
+
+  transition: var(--transition-normal);
+}
+
+.primary-button:hover {
+  background: var(--color-primary-active);
 }
 
 /* MOBILE */

@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 import "./skills.css";
 
 const skills = [
-  { name: "Chinese", level: 100, levelName: "Native", color: "#3b82f6" },
-  { name: "Swedish", level: 75, levelName: "B2", color: "#facc15" },
-  { name: "English", level: 75, levelName: "B2", color: "#38bdf8" },
+  { name: "Chinese", level: 100, levelName: "Native", color: "#3B82F6"},
+  { name: "Swedish", level: 75, levelName: "B2", color: "#93C5FD" },
+  { name: "English", level: 75, levelName: "B2", color: "#93C5FD" },
 ];
 
 export default function Skills() {

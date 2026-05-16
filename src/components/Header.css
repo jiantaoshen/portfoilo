@@ -5,7 +5,6 @@
   justify-content: space-between;
   align-items: center;
   padding: 2rem 4rem;
-  font-family: var(--font-family);
 }
 
 .logo {
@@ -13,6 +12,10 @@
   font-weight: var(--font-weight-bold);
   color: var(--color-primary);
   text-decoration: none;
+}
+
+.logo:hover {
+  color: var(--color-primary-active);
 }
 
 .nav-links {
@@ -27,6 +30,10 @@
 }
 
 .nav-link:hover {
+  color: var(--color-primary);
+}
+
+.nav-link.active {
   color: var(--color-primary);
 }
 

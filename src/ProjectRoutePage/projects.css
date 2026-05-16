@@ -13,7 +13,7 @@
 
 /* CARD */
 .project-card {
-  background: rgb(199, 229, 240);
+  background: var(--color-primary-active);
 
   border-radius: 12px;
 
@@ -62,7 +62,7 @@
 .project-description {
   margin-top: 0.5rem;
 
-  color: var(--color-text-soft);
+  color: var(--color-text);
   font-size: var(--font-small);
   line-height: 1.5;
 }
@@ -86,15 +86,15 @@
   font-size: 0.75rem;
   font-weight: 600;
 
-  color: white;
+  color: var(--color-text);
 
   white-space: nowrap;
 }
 
 .status-badge.open {
-  background: #22c55e;
+  background: var(--color-secondary);
 }
 
 .status-badge.ongoing {
-  background: #f59e0b;
+  background: var(--color-thirdary);
 }

@@ -6,7 +6,7 @@ export const projects = [
     image: "/projectImages/portfolio.webp",
     description: "Personal portfolio built with React.",
     tags: ["React (JSX)", "CSS"],
-    status: "ongoing",
+    status: "open",
     mdFile: "/projects/portfolio-website.md",
   },
 ];
