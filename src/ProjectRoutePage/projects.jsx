@@ -30,22 +30,10 @@ export default function Projects() {
             {/* CONTENT */}
             <div className="project-content">
 
-              {/* TITLE + STATUS */}
-              <div className="title-row">
+              {/* TITLE */}
+              <h3 className="title-row">{project.title}</h3>
 
-                <h3>{project.title}</h3>
-
-                {/*project.status && (
-                  <span className={`status-badge ${project.status}`}>
-                    {project.status}
-                  </span>
-                )*/}
-
-              </div>
-
-              <p className="project-description">
-                {project.description}
-              </p>
+              <p>{project.description}</p>
 
               {/* TAGS */}
               <div className="tag-group">

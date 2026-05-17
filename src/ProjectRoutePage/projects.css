@@ -46,28 +46,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-/* STATUS BADGE */
-.status-badge {
-  padding: 0.3rem 0.6rem;
-
-  border-radius: 999px;
-
-  font-size: 0.75rem;
-  font-weight: 600;
-
   color: var(--color-text);
-
-  white-space: nowrap;
-}
-
-.status-badge.open {
-  background: var(--color-secondary);
-}
-
-.status-badge.ongoing {
-  background: var(--color-thirdary);
 }
 
 /* =========================
@@ -91,8 +70,4 @@
   border-radius: var(--radius-full);
 
   background: var(--color-bg);
-
-  font-size: var(--font-body);
-
-  color: var(--color-text);
 }
