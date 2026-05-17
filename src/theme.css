@@ -13,15 +13,12 @@
   /* TYPOGRAPHY */
   --font-family: sans-serif;
 
-  --font-h1: clamp(2.5rem, 5vw, 4rem);
+  --font-h1: 4rem;
   --font-h2: 2rem;
   --font-h3: 1.5rem;
-
   --font-body: 1rem;
-  --font-small: 0.9rem;
 
   --font-weight-bold: 700;
-  --font-weight-medium: 600;
   --font-weight-normal: 400;
 
   /* SPACING */
@@ -33,16 +30,10 @@
   --space-6: 4rem;
 
   /* BORDER RADIUS */
-  --radius-sm: 8px;
-  --radius-md: 12px;
   --radius-lg: 18px;
   --radius-full: 999px;
 
   /* SHADOWS */
-  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.05);
-
-  --shadow-md: 0 4px 15px rgba(0, 0, 0, 0.08);
-
   --shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.12);
 
   /* TRANSITIONS */
@@ -93,15 +84,16 @@ h1 {
 
 h2 {
   font-size: var(--font-h2);
-  font-weight: var(--font-weight-medium);
 }
 
 h3 {
   font-size: var(--font-h3);
+  color: var(--color-primary);
+  margin: 0;
 }
 
 p {
-  color: var(--color-text);
+  font-size: var(--font-body);
 }
 
 /* =========================
@@ -113,65 +105,10 @@ a {
 }
 
 /* =========================
-   TAGS
+   FOOTER
 ========================= */
-.tag {
-  display: inline-flex;
-  align-items: center;
-
-  padding: 0.35rem 0.75rem;
-
-  border-radius: var(--radius-full);
-
-  background: var(--color-bg);
-
-  font-size: var(--font-small);
-
-  color: var(--color-text);
-}
-
-/* =========================
-   CARDS
-========================= */
-.card {
-  background: var(--color-bg);
-
-  border-radius: var(--radius-md);
-
-  box-shadow: var(--shadow-md);
-
-  transition: var(--transition-normal);
-}
-
-.card:hover {
-  transform: translateY(-4px);
-}
-
-/* =========================
-   SECTION SPACING
-========================= */
-.section {
-  padding-top: var(--space-6);
-  padding-bottom: var(--space-6);
-}
-
-/* =========================
-   FLEX HELPERS
-========================= */
-.flex {
-  display: flex;
-}
-
-.flex-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.flex-between {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+footer {
+  background: var(--color-primary-active);
 }
 
 /* =========================

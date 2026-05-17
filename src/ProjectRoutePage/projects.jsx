@@ -33,15 +33,13 @@ export default function Projects() {
               {/* TITLE + STATUS */}
               <div className="title-row">
 
-                <h2 className="project-title">
-                  {project.title}
-                </h2>
+                <h3>{project.title}</h3>
 
-                {project.status && (
+                {/*project.status && (
                   <span className={`status-badge ${project.status}`}>
                     {project.status}
                   </span>
-                )}
+                )*/}
 
               </div>
 
@@ -57,7 +55,7 @@ export default function Projects() {
                   </span>
                 ))}
               </div>
-
+              
             </div>
 
           </div>
