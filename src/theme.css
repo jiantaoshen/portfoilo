@@ -18,8 +18,7 @@
   --font-h3: 1.5rem;
   --font-body: 1rem;
 
-  --font-weight-bold: 700;
-  --font-weight-normal: 400;
+  --font-weight-bold: 800;
 
   /* SPACING */
   --space-1: 0.5rem;
@@ -27,7 +26,9 @@
   --space-3: 1.5rem;
   --space-4: 2rem;
   --space-5: 3rem;
-  --space-6: 4rem;
+
+  /* LINE HEIGHT */
+  --line-height-normal: 1.6;
 
   /* BORDER RADIUS */
   --radius-lg: 18px;
@@ -62,24 +63,15 @@ body {
   font-family: var(--font-family);
   background: var(--color-bg);
   color: var(--color-text);
-
-  line-height: 1.5;
+  line-height: var(--line-height-normal);
 }
 
 /* =========================
    TYPOGRAPHY
 ========================= */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  line-height: 1.2;
-}
-
 h1 {
   font-size: var(--font-h1);
+  font-weight: var(--font-weight-bold);
 }
 
 h2 {
@@ -121,6 +113,6 @@ footer {
   }
 
   h1 {
-    line-height: 1.1;
+    line-height: var(--line-height-normal);
   }
 }

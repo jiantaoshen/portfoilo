@@ -13,9 +13,9 @@ export default function Home() {
       {/* HERO CONTENT */}
       <main className="hero-section">
         <div className="hero-content">
-          <h3 className="intro-text">Hello, I'm</h3>
+          <h3>Hello, I'm</h3>
 
-          <h1 className="hero-title">JIANTAO SHEN</h1>
+          <h1>JIANTAO SHEN</h1>
 
           <div className="role-container">
             <h2>Backend Developer</h2>

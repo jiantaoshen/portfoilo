@@ -6,8 +6,7 @@ export default function Projects() {
   const navigate = useNavigate();
 
   return (
-    <div className="projects-page">
-
+    <>
       <h1>Projects</h1>
 
       <div className="projects-grid">
@@ -48,9 +47,7 @@ export default function Projects() {
 
           </div>
         ))}
-
       </div>
-
-    </div>
+    </>
   );
 }

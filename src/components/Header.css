@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 4rem;
+  padding: var(--space-2) var(--space-3);
 }
 
 .logo {
@@ -20,7 +20,7 @@
 
 .nav-links {
   display: flex;
-  gap: 2.5rem;
+  gap: var(--space-4);
 }
 
 .nav-link {
@@ -39,6 +39,6 @@
 
 @media (max-width: 768px) {
   .navbar {
-    padding: 1.5rem;
+    padding: var(--space-3);
   }
 }

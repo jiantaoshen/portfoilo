@@ -3,7 +3,7 @@ import Skills from "./skills";
 
 export default function About() {
   return (
-    <div className="about-page">
+    <>
       {/* ABOUT */}
       <h1>About Me</h1>
 
@@ -44,6 +44,6 @@ export default function About() {
 
       <h3 className="subtitle">Master of Science in Engineering (Robotics), Mälardalen University (Sep 2019 - Jul 2024)</h3>
       <p>Focus on robotics, embedded systems, machine learning, and artificial intelligence.</p>
-    </div>
+    </>
   );
 }

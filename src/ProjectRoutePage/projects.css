@@ -1,12 +1,8 @@
-.projects-page {
-  margin-bottom: 3rem;
-}
-
 /* GRID */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem;
+  gap: var(--space-4);
 }
 
 /* =========================
@@ -38,7 +34,7 @@
 
 /* CONTENT */
 .project-content {
-  padding: 1rem;
+  padding: var(--space-2);
 }
 
 /* TITLE ROW */
@@ -58,7 +54,7 @@
 
   gap: var(--space-1);
 
-  margin-top: 1rem;
+  margin-top: var(--space-2);
 }
 
 .tag {
