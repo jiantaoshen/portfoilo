@@ -4,7 +4,8 @@ import Home from "./LandingPage/home";
 import About from "./AboutMe/about";
 import Projects from "./ProjectRoutePage/projects";
 import ProjectDetail from "./ContentPage/projectDetail";
-import "./theme.css";
+import "./Styles/theme.css";
+import "./Styles/global.css";
 
 export default function App() {
   return (
