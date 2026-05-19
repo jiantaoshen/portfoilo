@@ -3,30 +3,17 @@
   isolation: isolate;
 }
 
-/* BACKGROUND SVG */
-.hero-bg {
-  position: absolute;
-  inset: 0;
-
-  background-image: url("../assets/Hero.svg");
-  background-repeat: no-repeat;
-  background-position: right center;
-  background-size: contain;
-
-  opacity: 0.75;
-
-  z-index: -1;
-
-  pointer-events: none;
-}
-
 /* HERO SECTION */
 .hero-section {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  width: 100%;
 }
 
 .hero-content {
+  flex: 1;
   max-width: 650px;
 }
 
@@ -76,6 +63,17 @@ button {
 
 .primary-button:hover {
   background: var(--color-primary-active);
+}
+
+/* =========================
+   PROJECTS PANEL
+========================= */
+.projects-panel {
+  width: 400px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 /* MOBILE */

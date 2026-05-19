@@ -1,5 +1,5 @@
 ## Description
-This is my personal portfolio website built with React. It showcases my projects, skills, and background through a clean and responsive user interface.
+My personal portfolio website built with React. It showcases my projects, skills, and background through a clean and responsive user interface.
 
 ## Features
 - Responsive design
@@ -58,3 +58,17 @@ I use AI to help create prototypes based on my designs. The development process 
 
 I also use AI when writing documentation. I first create an abstract summary or draft, and then AI helps rewrite it in a more professional and polished way.
 
+## Updates 
+Here shows the most important updates for the portfolio pages
+
+### Version 1
+A simple CV pages looks like this: ["https://jiantaoshen.github.io/CV_Page"](https://jiantaoshen.github.io/CV_Page/).
+
+### Version 2
+Redesign the UI with help of AI. Also change deployed from Github page to Vercel. Looks like follow images:
+
+![Portfolio image](../projectImages/portfolio.webp)
+
+### Version 2.1
+Remove bar plot in '/About' because the plot doesn't give any information. 
+Remove background in '/' and display my projects instead.

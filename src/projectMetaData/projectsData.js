@@ -5,7 +5,7 @@ export const projects = [
     title: "Portfolio Website",
     image: "/projectImages/portfolio.webp",
     description: "Personal portfolio built with React.",
-    tags: ["React (JSX)", "CSS"],
+    tags: ["Frontend", "React", "Vite", "JavaScript", "CSS"],
     mdFile: "/projects/portfolio-website.md",
   },
 ];

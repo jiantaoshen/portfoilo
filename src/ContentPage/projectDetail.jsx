@@ -1,7 +1,7 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
+import { projects } from "../projectMetaData/projectsData";
 import ReactMarkdown from "react-markdown";
-import { projects } from "../ProjectRoutePage/projectsData";
 import "./projectDetail.css";
 
 export default function ProjectDetail() {

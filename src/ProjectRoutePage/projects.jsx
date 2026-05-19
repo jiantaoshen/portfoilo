@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import "./projects.css";
-import { projects } from "./projectsData";
+import { projects } from "../projectMetaData/projectsData";
 
 export default function Projects() {
   const navigate = useNavigate();

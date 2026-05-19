@@ -1,5 +1,4 @@
 import "./about.css";
-import Skills from "./skills";
 
 export default function About() {
   return (
@@ -13,25 +12,49 @@ export default function About() {
       {/* SKILLS TEXT */}
       <h2>Skills</h2>
 
-      <h3 className="subtitle">Core Technologies</h3>
-      <ul className="list">
-        <li>JavaScript</li>
-        <li>Python</li>
-        <li>C#</li>
-        <li>HTML</li>
-        <li>CSS</li>
-      </ul>
+      <div className="skills-grid">
+        <div>
+            <h3>Frontend</h3>
+            <ul className="list">
+              <li>React</li>
+              <li>Vite</li>
+              <li>JavaScript</li>
+              <li>CSS</li>
+              <li>HTML</li>
+            </ul>
+        </div>
 
-      <h3 className="subtitle">Frameworks & Tools</h3>
-      <ul className="list">
-        <li>React</li>
-        <li>Git / GitHub</li>
-      </ul>
+        <div>
+        <h3>Backend</h3>
+        <ul className="list">
+          <li>C#</li>
+          <li>.NET</li>
+          <li>SQL</li>
+        </ul>
+        </div>
 
+        <div>
+          <h3>ML & AI</h3>
+          <ul className="list">
+            <li>Python</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Others</h3>
+          <ul className="list">
+            <li>Git / GitHub</li>
+          </ul>
+        </div>
+</div>
       {/* LANGUAGES */}
       <h2>Languages</h2>
 
-      <Skills />
+      <ul className="list">
+        <li>Chinese: Native</li>
+        <li>Swedish: CEFR B2</li>
+        <li>English: CEFR B2</li>
+      </ul>
 
       {/* EDUCATION */}
       <h2>Education</h2>

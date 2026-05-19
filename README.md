@@ -10,8 +10,10 @@ This is my personal portfolio website built with React. It showcases my projects
 
 ## Tech Stack
 - React
-- CSS
 - React Router
+- Vite
+- Javascript
+- CSS
 
 ## Architecture
 The project structure separates pages into different folders to improve maintainability and scalability.
@@ -26,7 +28,7 @@ The project structure separates pages into different folders to improve maintain
 
 This structure makes the project easier to maintain and navigate. When updates are needed, it is easier to identify where changes should be made.
 
-`App.jsx` is used as the main routing component, while a global stylesheet called `theme.css` manages the overall website theme and styling.
+`App.jsx` is used as the main routing component, while global stylesheets called `theme.css` and `global.css` manages the overall website theme and styling.
 
 ## Future Improvements
 - Improve responsive design for more screen sizes
