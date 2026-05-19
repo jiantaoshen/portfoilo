@@ -1,6 +1,6 @@
 import "./Footer.css";
-import githubIcon from '../Assets/Github.svg';
-import linkedinIcon from '../Assets/Linkedin.svg';
+import githubIcon from '../assets/Github.svg';
+import linkedinIcon from '../assets/Linkedin.svg';
 
 export default function Footer() {
   return (
