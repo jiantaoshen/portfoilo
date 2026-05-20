@@ -1,65 +1,61 @@
-import "./home.css";
 import { useNavigate } from "react-router-dom";
 import { projects } from "../projectMetaData/projectsData";
-import "../Styles/components/card.module.css";
+import card from "../styles/components/card.module.css";
+import button from "../styles/components/button.module.css";
 
 export default function Home() {
   const navigate = useNavigate();
   
   return (
-    <div className="portfolio-container">
-
-      {/* BACKGROUND IMAGE 
-      <div className="hero-bg" />*/}
-
+    <>
       {/* HERO CONTENT */}
-      <main className="hero-section">
-        <div className="hero-content">
+      <div className="flex items-start justify-between w-full">
+        <div className="flex-1 max-w-[650px]">
           <h3>Hello, I'm</h3>
 
           <h1>JIANTAO SHEN</h1>
 
-          <div className="role-container">
+          <div className="flex items-center gap-[var(--space-2)]">
             <h2>Backend Developer</h2>
-            <div className="blue-line"></div>
+            <div className="w-1 h-[var(--font-h2)] bg-[var(--color-primary)] rounded-full mt-[var(--space-3)] mb-[var(--space-2)]"></div>
           </div>
 
-          <p className="hero-summary">
+          <p className="max-w-[600px]">
             I design and build modern, cost-effective backend systems with a focus on clean code, scalable architecture, and high-performance APIs.
           </p>
 
           <div className="button-group">
-            <button className="primary-button" onClick={() => navigate("/projects")}>
+            <button className={button["primary-button"]} onClick={() => navigate("/projects")}>
               View My Work
             </button>
           </div>
         </div>
 
-         <div className="projects-panel">
+         <div className="w-[400px] flex flex-col gap-[var(--space-3)]">
           <h3>Featured Projects</h3>
 
-          {/* PROJECT CARDS WITH NAVIGATION */}
+        {/* PROJECT CARDS WITH NAVIGATION */}
         {projects.map((project) => (
           <div
             key={project.id}
-            className="project-card"
+            className={card["project-card"]}
             onClick={() =>
               navigate(`/projects/${project.slug}`)
             }
           >
 
             {/* CONTENT */}
-            <div className="project-content">
+            <div className={card["project-content"]}>
 
               {/* TITLE */}
-              <h3 className="title-row">{project.title}</h3>
+              <h3 className={card["title-row"]}>{project.title}</h3>
 
               <p>{project.description}</p>
 
               {/* TAGS */}
-              <div className="tag-group">
+              <div className={card["tag-group"]}>
                 {project.tags.map((tag) => (
-                  <span key={tag} className="tag">
+                  <span key={tag} className={card["tag"]}>
                     {tag}
                   </span>
                 ))}
@@ -70,7 +66,7 @@ export default function Home() {
           </div>
         ))}
         </div>
-      </main>
-    </div>
+      </div>
+    </>
   );
 }

@@ -1,7 +1,12 @@
 /* =========================
+   IMPORTS
+========================= */
+@import "tailwindcss";
+
+/* =========================
    THEME VARIABLES
 ========================= */
-:root {
+:root{
   /* COLORS */
   --color-bg: #F8FAFC;
   --color-text: #0B0F14;

@@ -3,6 +3,12 @@
 ## Description
 This is my personal portfolio website built with React. It showcases my projects, skills, and background through a clean and responsive user interface.
 
+## Set up
+1. Clone the project
+2. Install vite `npm install -D vite @vitejs/plugin-react `
+3. Install tailwindcss `npm install tailwindcss @tailwindcss/vite` 
+4. run `npm run dev`
+
 ## Features
 - Responsive design
 - Client-side routing with React Router
@@ -14,17 +20,17 @@ This is my personal portfolio website built with React. It showcases my projects
 - Vite
 - Javascript
 - CSS
+- Tailwind CSS
 
-## Architecture
-The project structure separates pages into different folders to improve maintainability and scalability.
+## Routes
+The project structure stores page, style and layout into different folders to improve maintainability and scalability.
 
-| Page Route | Folder |
+| Page Route | jsx |
 |---|---|
-| `/about` | `AboutMe` |
-| `/projects` | `ProjectRoutePage` |
-| `/` | `LandingPage` |
-| `/projects/:id` | `ContentPage` |
-| Layout, Header, Footer | `components` |
+| `/about` | `about.jsx` |
+| `/projects` | `projects.jsx` |
+| `/` | `home.jsx` |
+| `/projects/:id` | `projectDetail.jsx` |
 
 This structure makes the project easier to maintain and navigate. When updates are needed, it is easier to identify where changes should be made.
 

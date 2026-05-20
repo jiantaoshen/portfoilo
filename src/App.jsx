@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
-import Home from "./LandingPage/home";
-import About from "./AboutMe/about";
-import Projects from "./ProjectRoutePage/projects";
-import ProjectDetail from "./ContentPage/projectDetail";
-import "./Styles/theme.css";
-import "./Styles/global.css";
+import Home from "./pages/home";
+import About from "./pages/about";
+import Projects from "./pages/projects";
+import ProjectDetail from "./pages/projectDetail";
+import "./styles/theme.css";
+import "./styles/global.css";
 
 export default function App() {
   return (

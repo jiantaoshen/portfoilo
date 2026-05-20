@@ -8,23 +8,24 @@ My personal portfolio website built with React. It showcases my projects, skills
 
 ## Tech Stack
 - React
-- CSS
 - React Router
+- Vite
+- Tailwind CSS
+- CSS Modules
 
 ## Architecture
-The project structure separates pages into different folders to improve maintainability and scalability.
+The project structure separates pages, styles, and layouts into different folders to improve maintainability and scalability. It uses both Tailwind CSS and CSS Modules to minimize the number of CSS files in the project, making it possible to store all pages in a single folder without confusing developers.
 
-Page Route → Folder
+Page Route → jsx 
 
-- `/about` → `AboutMe`
-- `/projects` → `ProjectRoutePage`
-- `/` → `LandingPage`
-- `/projects/:id` → `ContentPage`
-- `Layout, Header, Footer` → `components`
+- `/about` → `about.jsx` 
+- `/projects` → `projects.jsx` 
+- `/` → `home.jsx` 
+- `/projects/:id` → `projectDetail.jsx` 
 
 This structure makes the project easier to maintain and navigate. When updates are needed, it is easier to identify where changes should be made.
 
-`App.jsx` is used as the main routing component, while a global stylesheet called `theme.css` manages the overall website theme and styling.
+`App.jsx` is used as the main routing component, while global stylesheets called `theme.css` and `global.css` manages the overall website theme and styling.
 
 ## Future Improvements
 - Improve responsive design for more screen sizes

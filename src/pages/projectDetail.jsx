@@ -2,7 +2,8 @@ import { useParams, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { projects } from "../projectMetaData/projectsData";
 import ReactMarkdown from "react-markdown";
-import "./projectDetail.css";
+import button from "../styles/components/button.module.css";
+import "../styles/markdown.css";
 
 export default function ProjectDetail() {
   const { slug } = useParams();
@@ -27,15 +28,17 @@ export default function ProjectDetail() {
   }
 
   return (
-    <div className="project-detail">
+    <div className="max-w-[1000px] mx-auto">
 
       {/* BACK BUTTON */}
       <button
-        className="back-button"
+        className={button["back-button"]}
         onClick={() => navigate("/projects")}
       >
         ← Back to Projects
       </button>
+
+      <img src={project.image} alt={project.title} className="w-full rounded-xl my-6" />
 
       <h1>{project.title}</h1>
 
