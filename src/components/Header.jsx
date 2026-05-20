@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import style from '../styles/components/button.module.css';
+import style from '../style/components/button.module.css';
 
 export default function Header() {
   return (

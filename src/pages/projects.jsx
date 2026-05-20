@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
-import grid from "../styles/components/grid.module.css";
-import card from "../styles/components/card.module.css";
+import grid from "../style/components/grid.module.css";
+import card from "../style/components/card.module.css";
 import { projects } from "../projectMetaData/projectsData";
 
 export default function Projects() {

@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { projects } from "../projectMetaData/projectsData";
-import card from "../styles/components/card.module.css";
-import button from "../styles/components/button.module.css";
+import card from "../style/components/card.module.css";
+import button from "../style/components/button.module.css";
 
 export default function Home() {
   const navigate = useNavigate();

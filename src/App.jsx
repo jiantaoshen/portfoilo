@@ -4,8 +4,8 @@ import Home from "./pages/home";
 import About from "./pages/about";
 import Projects from "./pages/projects";
 import ProjectDetail from "./pages/projectDetail";
-import "./styles/theme.css";
-import "./styles/global.css";
+import "./style/theme.css";
+import "./style/global.css";
 
 export default function App() {
   return (
