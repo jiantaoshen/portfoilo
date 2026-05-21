@@ -9,6 +9,7 @@ My personal portfolio website built with React. It showcases my projects, skills
 ## Tech Stack
 - React
 - React Router
+- TypeScript
 - Vite
 - Tailwind CSS
 - CSS Modules
@@ -70,6 +71,11 @@ Redesign the UI with help of AI. Also change deployed from Github page to Vercel
 
 ![Portfolio image](../projectImages/portfolio.webp)
 
-### Version 2.1
-Remove bar plot in '/About' because the plot doesn't give any information. 
-Remove background in '/' and display my projects instead.
+### Version 3
+Important changes:
+- Remove bar plot in '/About' because the plot doesn't give any information. 
+- Remove background in '/' and display my projects instead.
+- Change CSS to CSS Modules and Tailwind CSS
+- Change Javascript to Typescript (JSX -> TSX)
+
+

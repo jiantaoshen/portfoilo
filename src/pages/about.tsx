@@ -18,7 +18,10 @@ export default function About() {
               <li>React</li>
               <li>Vite</li>
               <li>JavaScript</li>
+              <li>TypeScript</li>
               <li>CSS</li>
+              <li>CSS Modules</li>
+              <li>Tailwind CSS</li>
               <li>HTML</li>
             </ul>
         </div>
@@ -43,6 +46,8 @@ export default function About() {
           <h3>Others</h3>
           <ul className="list-disc mt-[var(--space-1)] pl-[var(--space-2)] space-y-[var(--space-1)]">
             <li>Git / GitHub</li>
+            <li>Vercel</li>
+            <li>Firebase</li>
           </ul>
         </div>
 

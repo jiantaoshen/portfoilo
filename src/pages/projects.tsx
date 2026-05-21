@@ -1,6 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import grid from "../style/components/grid.module.css";
-import card from "../style/components/card.module.css";
+import card from "../styles/components/card.module.css";
 import { projects } from "../projectMetaData/projectsData";
 
 export default function Projects() {
@@ -10,7 +9,7 @@ export default function Projects() {
     <>
       <h1>Projects</h1>
 
-      <div className={grid["projects-grid"]}>
+      <div className="grid grid-cols-[repeat(auto-fit,minmax(260px,1fr))] gap-[var(--space-4)]">
 
         {/* PROJECT CARDS WITH NAVIGATION */}
         {projects.map((project) => (

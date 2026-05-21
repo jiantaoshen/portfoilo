@@ -7,7 +7,9 @@ This is my personal portfolio website built with React. It showcases my projects
 1. Clone the project
 2. Install vite `npm install -D vite @vitejs/plugin-react `
 3. Install tailwindcss `npm install tailwindcss @tailwindcss/vite` 
-4. run `npm run dev`
+4. Install typescript `npm install -D typescript @types/react @types/react-dom`
+5. Install typescript `npm install react-markdown`
+6. run `npm run dev`
 
 ## Features
 - Responsive design
@@ -18,9 +20,11 @@ This is my personal portfolio website built with React. It showcases my projects
 - React
 - React Router
 - Vite
-- Javascript
+- Typescript *
 - CSS
 - Tailwind CSS
+
+*I converted this project from JavaScript to TypeScript because TypeScript improves code safety by catching errors before runtime and does not affect performance since it compiles to JavaScript. However, it does not improve cybersecurity security.
 
 ## Routes
 The project structure stores page, style and layout into different folders to improve maintainability and scalability.

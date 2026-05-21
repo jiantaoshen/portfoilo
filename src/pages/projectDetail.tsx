@@ -2,8 +2,8 @@ import { useParams, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { projects } from "../projectMetaData/projectsData";
 import ReactMarkdown from "react-markdown";
-import button from "../style/components/button.module.css";
-import "../style/markdown.css";
+import button from "../styles/components/event.module.css";
+import "../styles/markdown.css";
 
 export default function ProjectDetail() {
   const { slug } = useParams();
