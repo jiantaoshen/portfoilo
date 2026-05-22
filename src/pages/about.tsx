@@ -15,23 +15,20 @@ export default function About() {
         <div>
             <h3>Frontend</h3>
             <ul className="list-disc mt-[var(--space-1)] pl-[var(--space-2)] space-y-[var(--space-1)]">
-              <li>React</li>
-              <li>Vite</li>
-              <li>JavaScript</li>
-              <li>TypeScript</li>
-              <li>CSS</li>
-              <li>CSS Modules</li>
+              <li>JavaScript / TypeScript</li>
+              <li>React (Vite, React Router)</li>
               <li>Tailwind CSS</li>
-              <li>HTML</li>
+              <li>CSS Modules</li>
+              <li>HTML / CSS</li>
             </ul>
         </div>
 
         <div>
         <h3>Backend</h3>
         <ul className="list-disc mt-[var(--space-1)] pl-[var(--space-2)] space-y-[var(--space-1)]">
-          <li>C#</li>
-          <li>.NET</li>
+          <li>C# / .NET</li>
           <li>SQL</li>
+          <li>Entity Framework Core</li>
         </ul>
         </div>
 
@@ -54,9 +51,9 @@ export default function About() {
         <div>
           <h3>Languages</h3>
           <ul className="list-disc mt-[var(--space-1)] pl-[var(--space-2)] space-y-[var(--space-1)]">
-            <li>Chinese: Native</li>
-            <li>Swedish: CEFR B2</li>
-            <li>English: CEFR B2</li>
+            <li>Chinese (Native)</li>
+            <li>Swedish (B2)</li>
+            <li>English (B2)</li>
           </ul>
         </div>
       </div>

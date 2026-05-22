@@ -18,4 +18,13 @@ export const projects: Project[] = [
     tags: ["Frontend", "React", "Vite", "TypeScript", "Tailwind CSS","CSS Modules","Vercel"],
     mdFile: "/projects/portfolio-website.md",
   },
+  {
+    id: 2,
+    slug: "SmartAssetTrackingSystem",
+    title: "Smart Asset Tracking System",
+    image: "/projectImages/smart-asset-tracking-system.webp",
+    description: "Small console application to track company assets (computers and phones). ",
+    tags: ["Backend", "C#", ".NET", "Entity Framework Core", "SQL Local Server"],
+    mdFile: "/projects/smart-asset-tracking-system.md",
+  },
 ];
