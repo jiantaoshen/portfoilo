@@ -27,4 +27,22 @@ export const projects: Project[] = [
     tags: ["Backend", "C#", ".NET", "Entity Framework Core", "SQL Local Server"],
     mdFile: "/projects/smart-asset-tracking-system.md",
   },
+  {
+  "id": 3,
+  "slug": "CineScope",
+  "title": "CineScope",
+  "image": "/projectImages/cinescope.webp",
+  "description": "Movie catalog web application built with ASP.NET Core MVC featuring authentication, role-based authorization, movie management, search, filtering, and responsive design.",
+  "tags": [
+    "Full Stack",
+    "ASP.NET Core MVC",
+    "C#",
+    ".NET",
+    "Entity Framework Core",
+    "SQL Server",
+    "Bootstrap",
+    "Role-based access control"
+  ],
+  "mdFile": "/projects/cinescope.md"
+  },
 ];

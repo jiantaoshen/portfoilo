@@ -40,7 +40,7 @@ export default function About() {
         </div>
 
         <div>
-          <h3>Others</h3>
+          <h3>Tools & Platforms</h3>
           <ul className="list-disc mt-[var(--space-1)] pl-[var(--space-2)] space-y-[var(--space-1)]">
             <li>Git / GitHub</li>
             <li>Vercel</li>
