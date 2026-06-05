@@ -35,7 +35,7 @@ export default function Home() {
           <h3>Featured Projects</h3>
 
         {/* PROJECT CARDS WITH NAVIGATION */}
-        {projects.map((project) => (
+        {projects.slice(-2).map((project) => (
           <div
             key={project.id}
             className={card["project-card"]}
