@@ -16,12 +16,12 @@ export default function Home() {
           <h1>JIANTAO SHEN</h1>
 
           <div className="flex items-center gap-[var(--space-2)]">
-            <h2>Backend Developer</h2>
+            <h2>Full Stack Developer</h2>
             <div className="w-1 h-[var(--font-h2)] bg-[var(--color-primary)] rounded-full mt-[var(--space-3)] mb-[var(--space-2)]"></div>
           </div>
 
           <p className="max-w-[600px]">
-            I design and build modern, cost-effective backend systems with a focus on clean code, scalable architecture, and high-performance APIs.
+            I design and build modern, cost-effective webpage with a focus on clean code, scalable architecture, and high-performance APIs.
           </p>
 
           <div className="button-group">
