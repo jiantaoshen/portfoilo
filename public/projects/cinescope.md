@@ -1,8 +1,6 @@
 CineScope is an ASP.NET Core MVC movie catalog application that allows users to discover, browse, and manage movies. The platform includes authentication, role-based authorization, movie management, and a modern responsive interface.
 
-Github link:
-
-[https://github.com/jiantaoshen/CineScope](https://github.com/jiantaoshen/CineScope)
+### [https://github.com/jiantaoshen/CineScope](https://github.com/jiantaoshen/CineScope)
 
 ## Set up
 1. Clone the repository and open the solution in Visual Studio.

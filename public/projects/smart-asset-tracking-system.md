@@ -1,9 +1,6 @@
-## Description
 A Console application to track company assets (computers and phones). The app stores simple asset records, calculates end-of-life (EoL) and prints a formatted asset list with local and converted prices. 
 
-Github link:
-
-[https://github.com/jiantaoshen/SmartAssetTrackingSystem#](https://github.com/jiantaoshen/SmartAssetTrackingSystem#)
+### [https://github.com/jiantaoshen/SmartAssetTrackingSystem#](https://github.com/jiantaoshen/SmartAssetTrackingSystem#)
 
 ## Features
 - Add assets via interactive console input

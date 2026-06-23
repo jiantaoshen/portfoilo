@@ -1,8 +1,7 @@
 LightManager is an open-source web-based application designed to help small to medium-sized teams organize and manage their projects efficiently. Unlike
 complex enterprise-level tools, this application focuses on simplicity, usability, and a clean user experience, allowing users to manage projects effectively without unnecessary features or a steep learning curve.
 
-## Page
-[https://light-manager-rho.vercel.app](https://light-manager-rho.vercel.app/)
+### [https://light-manager-rho.vercel.app](https://light-manager-rho.vercel.app/)
 
 ## Features
 * Authentication
