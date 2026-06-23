@@ -45,4 +45,27 @@ export const projects: Project[] = [
   ],
   "mdFile": "/projects/cinescope.md"
   },
+  {
+  "id": 4,
+  "slug": "LightManager",
+  "title": "LightManger",
+  "image": "/projectImages/LightManager.png",
+  "description": "A project manager platform for users to manage projects effectively without unnecessary features or a steep learning curve.",
+  "tags": [
+    "Full Stack",
+    "React",
+    "TypeScript",
+    "Vite",
+    "Tailwind CSS",
+    "ASP.NET Core Web API",
+    "C#",
+    "Entity Framework Core",
+    "PostgreSQL",
+    "ASP.NET Identity",
+    "JWT Authentication",
+    "Role-based Access Control",
+    "Kanban Board"
+  ],
+  "mdFile": "/projects/lightmanager.md"
+  },
 ];
